@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7A5F5522240079700FA5853 /* GrowingScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A5F5512240079700FA5853 /* GrowingScene.swift */; };
+		A7A5F5542242ADD100FA5853 /* AchievementScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A5F5532242ADD100FA5853 /* AchievementScene.swift */; };
+		A7FA0EA82214A4D800261E2A /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FA0EA72214A4D800261E2A /* MainMenu.swift */; };
+		A7FA0EAA2214A7BC00261E2A /* CreditScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FA0EA92214A7BC00261E2A /* CreditScene.swift */; };
+		D9250629224288FA004B3BC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9250627224288FA004B3BC8 /* Main.storyboard */; };
+		D925062B22452A48004B3BC8 /* Whimsical-Popsicle.wav in Resources */ = {isa = PBXBuildFile; fileRef = D925062A22452A48004B3BC8 /* Whimsical-Popsicle.wav */; };
+		D97EDEC52214A30F00A4BEA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97EDEC42214A30F00A4BEA4 /* AppDelegate.swift */; };
+		D97EDECB2214A30F00A4BEA4 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97EDECA2214A30F00A4BEA4 /* GameScene.swift */; };
+		D97EDECD2214A30F00A4BEA4 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97EDECC2214A30F00A4BEA4 /* GameViewController.swift */; };
+		D97EDED22214A30F00A4BEA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D97EDED12214A30F00A4BEA4 /* Assets.xcassets */; };
+		D97EDED52214A30F00A4BEA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D97EDED32214A30F00A4BEA4 /* LaunchScreen.storyboard */; };
+		D97EDEE02214A30F00A4BEA4 /* Farm4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97EDEDF2214A30F00A4BEA4 /* Farm4Tests.swift */; };
+		D97EDEEB2214A30F00A4BEA4 /* Farm4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97EDEEA2214A30F00A4BEA4 /* Farm4UITests.swift */; };
+		D97EEA002254F4DA00A36C74 /* Mountainside.wav in Resources */ = {isa = PBXBuildFile; fileRef = D97EE9FF2254F4DA00A36C74 /* Mountainside.wav */; };
+		D9C64EAF22298A0D00085933 /* Plots.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C64EAE22298A0D00085933 /* Plots.swift */; };
+		D9C86D0422276BE600C6052D /* EmptyMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C86D0322276BE600C6052D /* EmptyMenuScene.swift */; };
+		D9E85AAA2249258C00F9DCD7 /* Ripe.wav in Resources */ = {isa = PBXBuildFile; fileRef = D9E85AA82249258C00F9DCD7 /* Ripe.wav */; };
+		D9E85AAC2249259100F9DCD7 /* Harvest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D9E85AAB2249259000F9DCD7 /* Harvest.mp3 */; };
+		D9E85AAE2249259B00F9DCD7 /* Click.wav in Resources */ = {isa = PBXBuildFile; fileRef = D9E85AAD2249259B00F9DCD7 /* Click.wav */; };
+		D9E85AB0224925F400F9DCD7 /* cash-register-01.wav in Resources */ = {isa = PBXBuildFile; fileRef = D9E85AAF224925F400F9DCD7 /* cash-register-01.wav */; };
+		D9E85AB22249287100F9DCD7 /* Seeds.wav in Resources */ = {isa = PBXBuildFile; fileRef = D9E85AB12249287100F9DCD7 /* Seeds.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D97EDEDC2214A30F00A4BEA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D97EDEB92214A30E00A4BEA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D97EDEC02214A30F00A4BEA4;
+			remoteInfo = Farm4;
+		};
+		D97EDEE72214A30F00A4BEA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D97EDEB92214A30E00A4BEA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D97EDEC02214A30F00A4BEA4;
+			remoteInfo = Farm4;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A7A5F5512240079700FA5853 /* GrowingScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowingScene.swift; sourceTree = "<group>"; };
+		A7A5F5532242ADD100FA5853 /* AchievementScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementScene.swift; sourceTree = "<group>"; };
+		A7FA0EA72214A4D800261E2A /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		A7FA0EA92214A7BC00261E2A /* CreditScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditScene.swift; sourceTree = "<group>"; usesTabs = 0; };
+		D9250628224288FA004B3BC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D925062A22452A48004B3BC8 /* Whimsical-Popsicle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Whimsical-Popsicle.wav"; sourceTree = "<group>"; };
+		D97EDEC12214A30F00A4BEA4 /* Farm4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Farm4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D97EDEC42214A30F00A4BEA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D97EDECA2214A30F00A4BEA4 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		D97EDECC2214A30F00A4BEA4 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		D97EDED12214A30F00A4BEA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D97EDED42214A30F00A4BEA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D97EDED62214A30F00A4BEA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D97EDEDB2214A30F00A4BEA4 /* Farm4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Farm4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D97EDEDF2214A30F00A4BEA4 /* Farm4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Farm4Tests.swift; sourceTree = "<group>"; };
+		D97EDEE12214A30F00A4BEA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D97EDEE62214A30F00A4BEA4 /* Farm4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Farm4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D97EDEEA2214A30F00A4BEA4 /* Farm4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Farm4UITests.swift; sourceTree = "<group>"; };
+		D97EDEEC2214A30F00A4BEA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D97EE9FF2254F4DA00A36C74 /* Mountainside.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Mountainside.wav; sourceTree = "<group>"; };
+		D9C64EAE22298A0D00085933 /* Plots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plots.swift; sourceTree = "<group>"; };
+		D9C86D0322276BE600C6052D /* EmptyMenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyMenuScene.swift; sourceTree = "<group>"; };
+		D9E85AA82249258C00F9DCD7 /* Ripe.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Ripe.wav; sourceTree = "<group>"; };
+		D9E85AAB2249259000F9DCD7 /* Harvest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Harvest.mp3; sourceTree = "<group>"; };
+		D9E85AAD2249259B00F9DCD7 /* Click.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Click.wav; sourceTree = "<group>"; };
+		D9E85AAF224925F400F9DCD7 /* cash-register-01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "cash-register-01.wav"; sourceTree = "<group>"; };
+		D9E85AB12249287100F9DCD7 /* Seeds.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Seeds.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D97EDEBE2214A30F00A4BEA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97EDED82214A30F00A4BEA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97EDEE32214A30F00A4BEA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D97EDEB82214A30E00A4BEA4 = {
+			isa = PBXGroup;
+			children = (
+				D97EDEC32214A30F00A4BEA4 /* Farm4 */,
+				D97EDEDE2214A30F00A4BEA4 /* Farm4Tests */,
+				D97EDEE92214A30F00A4BEA4 /* Farm4UITests */,
+				D97EDEC22214A30F00A4BEA4 /* Products */,
+				D925062A22452A48004B3BC8 /* Whimsical-Popsicle.wav */,
+				D9E85AA82249258C00F9DCD7 /* Ripe.wav */,
+				D9E85AAB2249259000F9DCD7 /* Harvest.mp3 */,
+				D9E85AAD2249259B00F9DCD7 /* Click.wav */,
+				D9E85AAF224925F400F9DCD7 /* cash-register-01.wav */,
+				D9E85AB12249287100F9DCD7 /* Seeds.wav */,
+				D97EE9FF2254F4DA00A36C74 /* Mountainside.wav */,
+			);
+			sourceTree = "<group>";
+		};
+		D97EDEC22214A30F00A4BEA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D97EDEC12214A30F00A4BEA4 /* Farm4.app */,
+				D97EDEDB2214A30F00A4BEA4 /* Farm4Tests.xctest */,
+				D97EDEE62214A30F00A4BEA4 /* Farm4UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D97EDEC32214A30F00A4BEA4 /* Farm4 */ = {
+			isa = PBXGroup;
+			children = (
+				D97EDEC42214A30F00A4BEA4 /* AppDelegate.swift */,
+				D97EDECA2214A30F00A4BEA4 /* GameScene.swift */,
+				D9C64EAE22298A0D00085933 /* Plots.swift */,
+				D9C86D0322276BE600C6052D /* EmptyMenuScene.swift */,
+				A7FA0EA72214A4D800261E2A /* MainMenu.swift */,
+				A7FA0EA92214A7BC00261E2A /* CreditScene.swift */,
+				D97EDECC2214A30F00A4BEA4 /* GameViewController.swift */,
+				A7A5F5512240079700FA5853 /* GrowingScene.swift */,
+				A7A5F5532242ADD100FA5853 /* AchievementScene.swift */,
+				D97EDED12214A30F00A4BEA4 /* Assets.xcassets */,
+				D9250627224288FA004B3BC8 /* Main.storyboard */,
+				D97EDED32214A30F00A4BEA4 /* LaunchScreen.storyboard */,
+				D97EDED62214A30F00A4BEA4 /* Info.plist */,
+			);
+			path = Farm4;
+			sourceTree = "<group>";
+		};
+		D97EDEDE2214A30F00A4BEA4 /* Farm4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D97EDEDF2214A30F00A4BEA4 /* Farm4Tests.swift */,
+				D97EDEE12214A30F00A4BEA4 /* Info.plist */,
+			);
+			path = Farm4Tests;
+			sourceTree = "<group>";
+		};
+		D97EDEE92214A30F00A4BEA4 /* Farm4UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D97EDEEA2214A30F00A4BEA4 /* Farm4UITests.swift */,
+				D97EDEEC2214A30F00A4BEA4 /* Info.plist */,
+			);
+			path = Farm4UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D97EDEC02214A30F00A4BEA4 /* Farm4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D97EDEEF2214A30F00A4BEA4 /* Build configuration list for PBXNativeTarget "Farm4" */;
+			buildPhases = (
+				D97EDEBD2214A30F00A4BEA4 /* Sources */,
+				D97EDEBE2214A30F00A4BEA4 /* Frameworks */,
+				D97EDEBF2214A30F00A4BEA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Farm4;
+			productName = Farm4;
+			productReference = D97EDEC12214A30F00A4BEA4 /* Farm4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D97EDEDA2214A30F00A4BEA4 /* Farm4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D97EDEF22214A30F00A4BEA4 /* Build configuration list for PBXNativeTarget "Farm4Tests" */;
+			buildPhases = (
+				D97EDED72214A30F00A4BEA4 /* Sources */,
+				D97EDED82214A30F00A4BEA4 /* Frameworks */,
+				D97EDED92214A30F00A4BEA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D97EDEDD2214A30F00A4BEA4 /* PBXTargetDependency */,
+			);
+			name = Farm4Tests;
+			productName = Farm4Tests;
+			productReference = D97EDEDB2214A30F00A4BEA4 /* Farm4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D97EDEE52214A30F00A4BEA4 /* Farm4UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D97EDEF52214A30F00A4BEA4 /* Build configuration list for PBXNativeTarget "Farm4UITests" */;
+			buildPhases = (
+				D97EDEE22214A30F00A4BEA4 /* Sources */,
+				D97EDEE32214A30F00A4BEA4 /* Frameworks */,
+				D97EDEE42214A30F00A4BEA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D97EDEE82214A30F00A4BEA4 /* PBXTargetDependency */,
+			);
+			name = Farm4UITests;
+			productName = Farm4UITests;
+			productReference = D97EDEE62214A30F00A4BEA4 /* Farm4UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D97EDEB92214A30E00A4BEA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Austin Collier";
+				TargetAttributes = {
+					D97EDEC02214A30F00A4BEA4 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
+					};
+					D97EDEDA2214A30F00A4BEA4 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
+						TestTargetID = D97EDEC02214A30F00A4BEA4;
+					};
+					D97EDEE52214A30F00A4BEA4 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
+						TestTargetID = D97EDEC02214A30F00A4BEA4;
+					};
+				};
+			};
+			buildConfigurationList = D97EDEBC2214A30E00A4BEA4 /* Build configuration list for PBXProject "Farm4" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D97EDEB82214A30E00A4BEA4;
+			productRefGroup = D97EDEC22214A30F00A4BEA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D97EDEC02214A30F00A4BEA4 /* Farm4 */,
+				D97EDEDA2214A30F00A4BEA4 /* Farm4Tests */,
+				D97EDEE52214A30F00A4BEA4 /* Farm4UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D97EDEBF2214A30F00A4BEA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9250629224288FA004B3BC8 /* Main.storyboard in Resources */,
+				D97EDED22214A30F00A4BEA4 /* Assets.xcassets in Resources */,
+				D9E85AAE2249259B00F9DCD7 /* Click.wav in Resources */,
+				D9E85AB0224925F400F9DCD7 /* cash-register-01.wav in Resources */,
+				D97EEA002254F4DA00A36C74 /* Mountainside.wav in Resources */,
+				D97EDED52214A30F00A4BEA4 /* LaunchScreen.storyboard in Resources */,
+				D9E85AAA2249258C00F9DCD7 /* Ripe.wav in Resources */,
+				D9E85AB22249287100F9DCD7 /* Seeds.wav in Resources */,
+				D9E85AAC2249259100F9DCD7 /* Harvest.mp3 in Resources */,
+				D925062B22452A48004B3BC8 /* Whimsical-Popsicle.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97EDED92214A30F00A4BEA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97EDEE42214A30F00A4BEA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D97EDEBD2214A30F00A4BEA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A5F5522240079700FA5853 /* GrowingScene.swift in Sources */,
+				D9C64EAF22298A0D00085933 /* Plots.swift in Sources */,
+				D97EDECB2214A30F00A4BEA4 /* GameScene.swift in Sources */,
+				A7A5F5542242ADD100FA5853 /* AchievementScene.swift in Sources */,
+				D97EDECD2214A30F00A4BEA4 /* GameViewController.swift in Sources */,
+				D97EDEC52214A30F00A4BEA4 /* AppDelegate.swift in Sources */,
+				A7FA0EA82214A4D800261E2A /* MainMenu.swift in Sources */,
+				A7FA0EAA2214A7BC00261E2A /* CreditScene.swift in Sources */,
+				D9C86D0422276BE600C6052D /* EmptyMenuScene.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97EDED72214A30F00A4BEA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D97EDEE02214A30F00A4BEA4 /* Farm4Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97EDEE22214A30F00A4BEA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D97EDEEB2214A30F00A4BEA4 /* Farm4UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D97EDEDD2214A30F00A4BEA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D97EDEC02214A30F00A4BEA4 /* Farm4 */;
+			targetProxy = D97EDEDC2214A30F00A4BEA4 /* PBXContainerItemProxy */;
+		};
+		D97EDEE82214A30F00A4BEA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D97EDEC02214A30F00A4BEA4 /* Farm4 */;
+			targetProxy = D97EDEE72214A30F00A4BEA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9250627224288FA004B3BC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9250628224288FA004B3BC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D97EDED32214A30F00A4BEA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D97EDED42214A30F00A4BEA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D97EDEED2214A30F00A4BEA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D97EDEEE2214A30F00A4BEA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D97EDEF02214A30F00A4BEA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B5DQGPT647;
+				INFOPLIST_FILE = Farm4/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SoftwareEngineering.Farm4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D97EDEF12214A30F00A4BEA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B5DQGPT647;
+				INFOPLIST_FILE = Farm4/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SoftwareEngineering.Farm4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D97EDEF32214A30F00A4BEA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Farm4Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SoftwareEngineering.Farm4Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Farm4.app/Farm4";
+			};
+			name = Debug;
+		};
+		D97EDEF42214A30F00A4BEA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Farm4Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SoftwareEngineering.Farm4Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Farm4.app/Farm4";
+			};
+			name = Release;
+		};
+		D97EDEF62214A30F00A4BEA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Farm4UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SoftwareEngineering.Farm4UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Farm4;
+			};
+			name = Debug;
+		};
+		D97EDEF72214A30F00A4BEA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Farm4UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SoftwareEngineering.Farm4UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Farm4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D97EDEBC2214A30E00A4BEA4 /* Build configuration list for PBXProject "Farm4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D97EDEED2214A30F00A4BEA4 /* Debug */,
+				D97EDEEE2214A30F00A4BEA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D97EDEEF2214A30F00A4BEA4 /* Build configuration list for PBXNativeTarget "Farm4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D97EDEF02214A30F00A4BEA4 /* Debug */,
+				D97EDEF12214A30F00A4BEA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D97EDEF22214A30F00A4BEA4 /* Build configuration list for PBXNativeTarget "Farm4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D97EDEF32214A30F00A4BEA4 /* Debug */,
+				D97EDEF42214A30F00A4BEA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D97EDEF52214A30F00A4BEA4 /* Build configuration list for PBXNativeTarget "Farm4UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D97EDEF62214A30F00A4BEA4 /* Debug */,
+				D97EDEF72214A30F00A4BEA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D97EDEB92214A30E00A4BEA4 /* Project object */;
+}
